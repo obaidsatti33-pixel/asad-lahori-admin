@@ -4,7 +4,7 @@
 
 The Admin Panel is the management interface of the **Asad Lahori Nashta Centre Full-Stack Restaurant System**.
 
-It connects with the Node.js/Express backend and provides restaurant staff with a centralized dashboard to manage daily operations efficiently.
+It connects with the Node.js/Express backend and provides restaurant staff with a centralized dashboard to manage daily restaurant operations efficiently.
 
 ---
 
@@ -68,5 +68,19 @@ Confirmed
 Preparing
    ↓
 Ready
+   ↓
+Completed
+For delivery orders:
+
+```text
+Pending
+   ↓
+Confirmed
+   ↓
+Preparing
+   ↓
+Ready
+   ↓
+Out for Delivery
    ↓
 Completed
