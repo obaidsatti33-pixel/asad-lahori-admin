@@ -1,16 +1,72 @@
-# React + Vite
+# Asad Lahori Nashta Centre — Admin Panel
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A professional admin dashboard for managing the Asad Lahori Nashta Centre's menu, orders, customers, sales, availability, and restaurant settings.
 
-Currently, two official plugins are available:
+The Admin Panel is the management interface of the **Asad Lahori Nashta Centre Full-Stack Restaurant System**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+It connects with the Node.js/Express backend and provides restaurant staff with a centralized dashboard to manage daily operations efficiently.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Live Admin Panel
 
-## Expanding the ESLint configuration
+**Admin Dashboard:**  
+https://admin-tau-five-rql50vj1kw.vercel.app
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📌 Project Overview
+
+The Asad Lahori Nashta Centre Admin Panel was developed as part of a complete full-stack restaurant management system.
+
+The goal was to create a practical and professional dashboard that can be used by restaurant management to monitor and control important business operations from one place.
+
+The panel communicates with the production backend through REST APIs and uses authenticated sessions for protected admin functionality.
+
+---
+
+## ✨ Key Features
+
+### 📊 Dashboard
+
+- Overview of restaurant activity
+- Menu item count
+- Order statistics
+- Customer statistics
+- Sales information
+- Quick access to management sections
+
+---
+
+### 🍽️ Menu Management
+
+Admin users can manage restaurant menu items directly from the dashboard.
+
+Features include:
+
+- Add new menu items
+- Edit existing products
+- Delete menu items
+- Update prices
+- Manage categories
+- Control item availability
+- View current menu data
+
+---
+
+### 📦 Order Management
+
+The order management system allows restaurant staff to monitor and process customer orders.
+
+Order workflow includes:
+
+```text
+Pending
+   ↓
+Confirmed
+   ↓
+Preparing
+   ↓
+Ready
+   ↓
+Completed
